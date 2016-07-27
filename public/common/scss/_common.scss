@@ -1,0 +1,29 @@
+@charset "utf-8";
+@import "variables";
+@import "normalize";
+@import "header";
+@import "footer";
+.w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mr30 {
+  margin-right: 30px;
+}
+
+.mr50 {
+  margin-right: 50px;
+}

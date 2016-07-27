@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{> meta }}
+    <title>{{title}}</title>
+    {{#if css}}
+        {{#each css}}
+            <link rel="stylesheet" href="{{this}}" />
+        {{/each}}
+    {{/if}}
+</head>
+<body>
+    {{> header }} {{{ body }}} {{> footer }}
+    {{#if js}}
+        {{#each js}}
+            <script src="{{this}}"></script>
+        {{/each}}
+    {{/if}}
+</body>
+</html>
